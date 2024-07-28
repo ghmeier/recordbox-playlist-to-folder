@@ -1,0 +1,19 @@
+{
+  "name": "recordbox-playlist-to-folder",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.2",
+    "fast-xml-parser": "^4.4.0"
+  },
+  "scripts": {
+    "lint": "biome check --write ./index.ts"
+  }
+}
